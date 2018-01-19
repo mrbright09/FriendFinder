@@ -3,7 +3,7 @@ var path 			= require('path');
 var totalDifference = 0;
 module.exports = function(app){
 	app.get('/data/friends', function(req, res){
-		res.json(friends);
+		res.json(friendData);
 	});
 	app.post('/data/friends', function(req, res){
 		var greatMatch = {
